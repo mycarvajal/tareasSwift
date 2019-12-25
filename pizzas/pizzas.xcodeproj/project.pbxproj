@@ -17,6 +17,8 @@
 		B30E71D023B3FFC300705974 /* pizzasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30E71CF23B3FFC300705974 /* pizzasUITests.swift */; };
 		B30E71DE23B4028F00705974 /* vistaMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30E71DD23B4028F00705974 /* vistaMasa.swift */; };
 		B30E71E023B406CB00705974 /* VistaQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30E71DF23B406CB00705974 /* VistaQueso.swift */; };
+		B30E71E223B4094C00705974 /* VistaIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30E71E123B4094C00705974 /* VistaIngredientes.swift */; };
+		B30E71E423B40B7600705974 /* VistaFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30E71E323B40B7600705974 /* VistaFinal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		B30E71D123B3FFC300705974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B30E71DD23B4028F00705974 /* vistaMasa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vistaMasa.swift; sourceTree = "<group>"; };
 		B30E71DF23B406CB00705974 /* VistaQueso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaQueso.swift; sourceTree = "<group>"; };
+		B30E71E123B4094C00705974 /* VistaIngredientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaIngredientes.swift; sourceTree = "<group>"; };
+		B30E71E323B40B7600705974 /* VistaFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaFinal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				B30E71BB23B3FFC300705974 /* Info.plist */,
 				B30E71DD23B4028F00705974 /* vistaMasa.swift */,
 				B30E71DF23B406CB00705974 /* VistaQueso.swift */,
+				B30E71E123B4094C00705974 /* VistaIngredientes.swift */,
+				B30E71E323B40B7600705974 /* VistaFinal.swift */,
 			);
 			path = pizzas;
 			sourceTree = "<group>";
@@ -265,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30E71E423B40B7600705974 /* VistaFinal.swift in Sources */,
 				B30E71B223B3FFBC00705974 /* ViewController.swift in Sources */,
 				B30E71E023B406CB00705974 /* VistaQueso.swift in Sources */,
+				B30E71E223B4094C00705974 /* VistaIngredientes.swift in Sources */,
 				B30E71AE23B3FFBC00705974 /* AppDelegate.swift in Sources */,
 				B30E71B023B3FFBC00705974 /* SceneDelegate.swift in Sources */,
 				B30E71DE23B4028F00705974 /* vistaMasa.swift in Sources */,
